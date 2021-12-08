@@ -6,6 +6,6 @@
     "express": "^4.17.1",
     "body-parser":"*",
     "cors":"*",
-    "applicationinsights":"*"
+    "@microsoft/applicationinsights-web":"*"
   }
 }
