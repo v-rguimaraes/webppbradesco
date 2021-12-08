@@ -8,7 +8,6 @@ RUN mkdir /web
 COPY . /web
 WORKDIR /web
 RUN npm install
-
 EXPOSE 80
 
 CMD [ "node","server.js" ]
